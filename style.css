@@ -1,0 +1,255 @@
+nav{
+  word-spacing: 50px;
+  display: flex;
+  justify-content: space-between !important;
+  font-family: Montserrat;
+  text-decoration: none !important;
+  
+}
+.div{
+  margin-top: 50px;
+  padding: 50px;
+  background-color: lightgray 
+  
+}
+
+.h1{
+  font-family: Montserrat
+}
+p{
+  font-family: Montserrat
+}
+h1{
+  font-family: Montserrat 
+}
+body{
+  font-family: open sans
+}
+img{
+  float: right;
+  justify-content: space-around;
+  border-radius: 50%;
+  border-color: lightgoldenrodyellow;
+  box-shadow: slategrey;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border: 3px solid #000;
+  
+
+}
+.contact{
+  padding: 60px;
+  text-align: center;
+  margin-top:50px;
+  text-decoration: underline
+}
+.intro{
+  margin-top: 50%
+}
+.Location{
+  text-decoration: none
+}
+i{
+  margin-top: 10px
+}
+.input{
+  float: right
+}
+.intro{
+  text-align: center
+}
+.p{
+  text-decoration: none;
+}
+.contact-section{
+  text-align: center;
+  padding: 50px
+}
+.home-div{
+  background-color: lightgray 
+}
+
+  
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: greenyellow;
+  box-shadow: 0 0 0 2px greenyellow;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: greenyellow;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #212121;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+.p2{
+  text-align: center;
+  justify-content: center
+}
+.profile{
+  background-color: lightgray
+}
+.contact_div{
+  background-color: lightgray 
+}
+/* From Uiverse.io by mahiatlinux */ 
+ul {
+  list-style: none;
+}
+
+.example-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder; /* Made bolder */
+  background-color: #000; /* Black background */
+  border-radius: 30px; /* Added border-radius to make the container rounded */
+  padding: 20px; /* Added padding for better appearance */
+  height: 70px;
+  width: 300px;
+}
+
+.example-1 .icon-content {
+  margin: 0 10px;
+  position: relative;
+  font-weight: bolder; /* Made bolder */
+}
+
+.example-1 .icon-content .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  font-weight: bolder; /* Made bolder */
+}
+
+.example-1 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+
+.example-1 .icon-content .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff; /* White icons */
+  background-color: #000; /* Black background */
+  transition: all 0.3s ease-in-out;
+  font-weight: bolder; /* Made bolder */
+}
+
+.example-1 .icon-content .link:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-1 .icon-content .link svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff; /* White icons */
+}
+
+.example-1 .icon-content .link[data-social="spotify"]:hover {
+  color: #1db954;
+}
+
+.example-1 .icon-content .link[data-social="pinterest"]:hover {
+  color: #bd081c;
+}
+
+.example-1 .icon-content .link[data-social="dribbble"]:hover {
+  color: #ea4c89;
+}
+
+.example-1 .icon-content .link[data-social="telegram"]:hover {
+  color: #0088cc;
+}
+
+
